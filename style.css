@@ -1,0 +1,625 @@
+/* Insert your styles here */
+/* ENSURE ALL SECTION HEIGHT ARE 100%!*/
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  min-width: 680px;
+  min-height: 500px;
+  background-color: black;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin: -8px;
+  padding: 8px 8px 0 8px;
+  z-index: 2;
+  display:inline-block;
+  min-width: 680px;
+  box-shadow: 0 1px 4px black;
+  border-bottom: 2px solid #756838;
+}
+
+#companyLogo {
+  font-family: 'Monoton', cursive;
+  font-size: 30px;
+  float:left;
+  margin-left: 20px;
+}
+
+#companyLogo img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+#companyLogo a{
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  padding: 20px 40px 2px 10px;
+  color: white;
+}
+
+nav ul {
+  text-align: right;
+  width: 98%;
+  margin-top: 0;
+  top: 40px;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: -2px;
+  margin-right: 16px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color : #756838;
+  transition: color 0.3s;
+}
+
+nav a.active {
+  border-bottom: 2px solid #756838;
+  transition: border-bottom 0.3s;
+}
+
+#banner {
+  position: relative;
+  width: 1;
+  margin: -8px;
+}
+
+#banner img {
+  width: 100%;
+}
+
+.bannertext{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+.bannertext h1{
+  font-size: 48px;
+}
+
+.bannertext p {
+  font-size: 24px;
+}
+
+.mainnav {
+  text-align: center;
+  margin: 3% auto;
+}
+
+.mainnav ul {
+  padding: 0;
+}
+.mainnav ul li {
+  display: inline-block;
+  background-color: #756838;
+  padding:25px 0;
+  width: 300px;
+  vertical-align: middle;
+  margin-top: 10px;
+  border-bottom: 2px solid #756838;
+}
+
+@media only screen and (max-width: 950px) {
+  .mainnav {
+    width: 100%;
+  }
+  .mainnav ul {
+    margin: 0 32%;
+  }
+  .mainnav ul li {
+    display: block;
+  }
+  .mainnav ul a {
+    text-decoration: none;
+  }
+}
+
+.mainnav ul li:hover {
+  padding-bottom: 23px;
+  border-bottom: 2px solid white;
+  transition: border-bottom 0.3s;
+}
+
+.mainnav ul a {
+  text-shadow: 1px 1px #363020;
+  color: white;
+}
+
+.mainnav img {
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+h2{
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  margin: 48px;
+  padding-bottom: 20px;
+  font-family: 'Monoton', cursive;
+}
+
+hr {
+  color: #756838;
+  width: 75%;
+}
+section{
+  height:1;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  padding: 180px 0;
+}
+
+.boxText {
+  width: 75%;
+  margin: 20px auto;
+}
+
+.boxText img{
+    width: 80%;
+    margin: 20px auto;
+}
+
+#aboutUs {
+  /* The image used */
+  background-image: url("../../media/test1.jpg");
+}
+
+.boxText h3 {
+  margin: 40px auto;
+}
+
+.boxText div {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+#AU-renovation {
+  display: inline-block;
+}
+
+#AU-renovation img{
+  width: 400px;
+  display: inline;
+  margin: 20px 40px 20px 0;
+  vertical-align: middle;
+}
+
+#AU-renovation p {
+  display: inline-block;
+  width: 40vw;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 1350px) {
+  #AU-renovation {
+    text-align: center;
+  }
+  #AU-renovation p{
+    width: 100%;
+  }
+}
+
+#AU-seats {
+  text-align: center;
+}
+
+#AU-seats h3, #AU-seats p {
+  text-align: left;
+}
+
+.seatFeature {
+  width: 600px;
+  display: inline;
+  padding: 15px;
+}
+
+h4 {
+  width: 200px;
+}
+
+.seatFeature img {
+  display: inline;
+  width: 300px;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+
+.seatFeature ul {
+  display: inline-block;
+  text-align: justify;
+  width: 200px;
+}
+
+.seatFeature ul li{
+  margin-top: 5px;
+}
+
+#AU-dolby {
+  display: inline-block;
+}
+
+#AU-dolby img {
+  display: inline;
+  vertical-align: middle;
+  width: 300px;
+}
+
+#AU-dolby p {
+  display:inline-block;
+  vertical-align: middle;
+  width: 50vw;
+}
+
+@media only screen and (max-width: 1350px) {
+  #AU-dolby {
+    text-align: center;
+  }
+  #AU-dolby p{
+    width: 100%;
+  }
+}
+
+#prices {
+  /* The image used */
+  background-image: url("../../media/test2.jpg");
+}
+
+table, tr, th, td {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  margin: 30px auto;
+}
+
+th, td {
+  padding: 15px;
+}
+
+th {
+  font-weight: normal;
+}
+
+td {
+  background-color: rgba(0,0,0,0.6);
+}
+
+#firstrow{
+    background-color: #756838;
+    height: 100%;
+}
+
+#nowShowing {
+  /* The image used */
+  background-image: url("../../media/test3.jpg");
+  text-align: center;
+}
+
+.screenTimes{
+  background-color: rgba(0,0,0,0.5);
+  width: 600px;
+  height: 400px;
+  text-align: left;
+  margin: 10px auto;
+  border-bottom: 2px solid black;
+}
+
+.screenTimes:hover{
+  border-bottom: 2px solid #756838;
+  cursor: pointer;
+  transition: border-bottom 0.3s;
+}
+
+.screenTimes img{
+  width: 200px;
+  margin: 20px;
+  vertical-align: middle;
+}
+
+.movieInfo {
+  padding: 30px;
+  vertical-align: top;
+}
+
+.screenTimes h3 {
+  margin: 0;
+}
+
+.synopsis {
+  background-color: rgba(0,0,0,0.5);
+  display: inline;
+  text-align: left;
+}
+
+.synopsis h3, .booking h3 {
+  width: 90%;
+  background-color: #756838;
+  padding: 1em 5%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 32px;
+}
+
+.synopsis-info {
+  width: 500px;
+  margin: 0 20px;
+}
+
+.synopsis iframe {
+  height: 360px;
+  width: 640px;
+  display: inline;
+  vertical-align: middle;
+  margin: 0 auto;
+  border: 0;
+}
+
+#bookingTitle, #movieSelectTitle {
+  width: 90%;
+  background-color: #756838;
+  padding: 1em 5%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.synopsis ul {
+  margin: 1.5em 10px;
+  padding: 0;
+}
+
+.synopsis ul li {
+  list-style: none;
+  display: inline-block;
+  width: auto;
+  border: 2px solid #756838;
+  margin: 0 2px;
+}
+
+.synopsis ul li:hover {
+  background-color: #756838;
+  transition: background-color 0.3s;
+}
+
+.bookingTime {
+  background-color: rgba(0,0,0,0);
+  color: white;
+  font-size: 16px;
+  padding: 1em 15px;
+  border: none;
+  cursor: pointer;
+}
+
+#movieSelectList img{
+  width: 150px;
+  margin: 0 5px;
+}
+#movieSelectList input{
+  width: 150px;
+  margin: 0;
+}
+
+#movieSelectList li{
+  padding: 0;
+  text-align: center;
+  width: auto;
+  font-size: 10px;
+  border: 0;
+}
+
+.booking {
+  background-color: rgba(0,0,0,0.5);
+  text-align: left;
+}
+
+#formMessage {
+  text-align: center;
+}
+
+#seatForm {
+  width: 570px;
+  margin: 1em 10px;
+}
+
+#seatForm select {
+  margin: 10px 250px 10px 10px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-bottom: 2px solid #756838;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../../media/down.png) 96% / 15% no-repeat;
+  width: 125px;
+  background-color: black;
+}
+
+#total {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 24px;
+  width: 510px;
+  background-color: #756838;
+  color: white;
+}
+
+fieldset {
+  margin: 20px 10px;
+  border: 2px solid #756838;
+  text-align: right;
+}
+
+#personalInfoForm {
+  width: 570px;
+  margin: 1em 10px;
+  vertical-align: top;
+  padding: 20px 10px;
+}
+
+#personalInfoForm input {
+  margin: 10px;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: none;
+  border-bottom: 2px solid #756838;
+  width: 350px;
+}
+
+#submitButton {
+  display: block;
+  margin: 1em auto;
+  text-align: center;
+  width: 250px;
+  padding: 1em 1em;
+  font-size: 18px;
+  background-color: #756838;
+  border: none;
+  border-bottom: 2px solid #756838;
+  color: white;
+  vertical-align: middle;
+}
+
+#submitButton img {
+  width: 30px;
+  float: left;
+  display: inline;
+  margin: 0 10px;
+}
+
+#submitButton:hover {
+  border-bottom: 2px solid white;
+  transition: border-bottom 0.3s;
+}
+
+input:disabled, select:disabled, button:disabled {
+  opacity: 0.5;
+}
+
+footer {
+  border-top: 1px solid #756838;
+  font-size: 10px;
+  background-color: #272211;
+}
+
+.footer {
+  padding: 5px 15px;
+  font-size: 12px;
+  background-color: black;
+}
+
+.footer a {
+  text-decoration: underline;
+}
+
+.debug {
+  background-color: black;
+  color: green;
+  font-family:monospace;
+  font-size: 12px;
+}
+
+.warningMsg {
+  font-family: 'Open Sans', sans-serif;
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+
+.receipt {
+  padding: 60px 40px 20px 40px;
+  background-color: white;
+  color: black;
+  text-align: left;
+  font-size: 12px;
+}
+
+.warning {
+  background-color: #756838;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.receiptTable {
+  width: 600px;
+  text-align: left;
+  margin: 5px 0;
+}
+
+.receiptTable th {
+  background-color: #756838;
+  color: white;
+  text-align: left;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.receiptTable td {
+  width: 300px;
+  background-color: white;
+  color: black;
+  text-align: left;
+  border-bottom: 1px solid #756838;
+  padding: 3px;
+  font-size: 12px;
+}
+
+.receipt #total {
+  font-size: 12px;
+  width: 600px;
+  margin: 0;
+  padding: 5px;
+  border: 1px solid #756838;
+  background-color: white;
+  color: black;
+}
+
+.receiptButton {
+  border: none;
+  background-color: #756838;
+  color: white;
+}
+
+.receiptButton {
+  cursor: pointer;
+}

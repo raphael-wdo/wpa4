@@ -1,0 +1,5 @@
+Date	Name	Email	Mobile	MovieID	Day	Hour	STA Qty	STP Qty	STC Qty	FCA Qty	FCP Qty	FCC Qty	Total
+2019-10-17	"Joe Mama"	joemama@email.com	0412345678	AHF	SAT	T21	0	1	0	0	0	0	17.5
+2019-10-17	"Dummy Cust"	dummycust@email.com	+61412341234	RMC	FRI	T21	2	0	0	0	0	0	39.6
+2019-10-17	"Fat Kid"	fatkid@email.com	0412345678	ANM	WED	T18	0	0	2	0	0	0	22
+2019-10-17	"Obama Care"	obamacare@email.com	+61412345678	RMC	TUE	T18	1	0	0	0	0	0	19.8
